@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica formulario</title>
+  </head>
+  <body>
+    <form action="#">
+      <p><strong>4.A:</strong> Campo requerido</p>
+      <label
+        >Usuario:
+        <input id="usuario" type="text" required />
+      </label>
+
+      <p><strong>4.B:</strong> Campo tipo email</p>
+      <label>
+        Email:
+        <input id="email" type="email" required />
+      </label>
+
+      <p><strong>4.C:</strong> Campo tipo fecha</p>
+      <label>
+        Fecha:
+        <input id="fecha" type="date" required />
+      </label>
+
+      <p><strong>4.D:</strong> Campo tipo color</p>
+      <label
+        >Color:
+        <input
+          id="color"
+          type="color"
+          id="avatarColor"
+          value="#9D0B98"
+          required
+        />
+      </label>
+
+      <p><strong>4.E:</strong> Campo tipo número</p>
+      <label
+        >Número:
+        <input id="numero" type="number" min="2" max="12" required />
+      </label>
+
+      <br />
+      <br />
+      <input type="reset" value="Borrar" />
+      <input type="submit" value="Confirmar" />
+    </form>
+  </body>
+</html>
+
